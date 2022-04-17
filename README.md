@@ -2,6 +2,7 @@
 ---
 ### Problem Statement
 
+Home-flipping has been increasingly trendy over the years, thanks in part to HGTV airing all of those home-flipping shows. These home-flippers need to decide what to renovate in the home before turning it around for the sale. This project aims to identify the features that bring the most value to a home, and which are best to improve before selling for the best possible profit.
 
 ### Data Dictionary
 
@@ -90,4 +91,10 @@
 |**saleprice**|*int64*|train_cleaned|Sale price $$.|
 
 For more information about the data, refer to the original data dictionary from the data set here: http://jse.amstat.org/v19n3/decock/DataDocumentation.txt.
+
+### Summary of Analysis
+
+When first looking at the data, I just looked at all correlations between the different numerical and categorical values against sale price to find relationships. I mostly focused on the features in the data that corresponded to things that could be renovated. Once I had a list of the features that seemed to have an impact on sale price, I built a model based around those features to predict housing price to see which ones had the strongest positive or negative impact. The model was then tuned up for optimal results.
+
+### Conclusions/Recommendations
 
