@@ -98,3 +98,8 @@ When first looking at the data, I just looked at all correlations between the di
 
 ### Conclusions/Recommendations
 
+Based on the coefficients of the model, as well as exploration of the data before the model, I discovered that there were definitely some features that add significant value to the home. Each number that came out of the model was representative of the numerical impact on sale price if only that one feature was changed, and all else stayed constant. 
+
+The main features that really add value to the home are the material and finish of the house, the roof material, the square footage of the home, the number of bathrooms above grade, fireplace quantity and quality, garage space and the type of garage, the house foundation, having a separate basement entrance or window, and a paved driveway. Any number or combination of those features should be explored for renovations when home-flippers are deciding what to do and tackle. 
+
+Knowing this information will likely benefit stakeholders in the home-flipping business. This is because knowing how much value a feature can add to a home is valuable information that allows those with a budget to really focus on what’s important for the best sale price possible. For furthering this project, other features in the model could be explored further to assess whether there is some multicollinearity that potentially pushed some features to the side in favor of these ones. If that is the case, there is a possibility that some of those features are equally as profitable to focus on, but the model just chose a different feature in its stead. 
